@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "dependencies": {
+    "cypress": "^12.17.4"
+  },
+
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome"
+  },
+  "author": "JyotiBisane",
+  "license": "ISC"
+
+}
